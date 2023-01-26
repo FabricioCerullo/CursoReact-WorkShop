@@ -10,7 +10,7 @@ const CartWidget = () => {
     }
 
     return cartTotals() ? <Link to={"/cart"} type="button" className="btn bg-light position-relative">
-            <img src={"/CursoReact-main/public/images//bag.svg"} alt={"Carro"} width={28} />
+            <img src={"https://cdn-icons-png.flaticon.com/512/7319/7319235.png"} alt={"Carro"} width={28} />
         <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{cartTotals()}</span>
         </Link> :"";
     
